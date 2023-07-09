@@ -3,7 +3,9 @@ body {
   display: block;
 }
 .container {
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
@@ -60,7 +62,8 @@ li {
   margin-bottom: 20px;
 }
 .small {
-  position: absolute;
+  margin-top: auto;
+  align-self: flex-start;
   font-size: 80%;
   font-weight: 400;
 }
