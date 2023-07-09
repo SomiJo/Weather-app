@@ -54,8 +54,7 @@ li {
 .search-form {
   margin-bottom: 20px;
 }
-#source {
-  text-align: center;
-  padding: 0;
-  margin: 0;
+.small {
+  font-size: 80%;
+  font-weight: 400;
 }
