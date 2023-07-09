@@ -2,6 +2,9 @@ body {
   font-family: arial, sans-serif;
   display: block;
 }
+.container {
+  position: relative;
+}
 
 h1 {
   color: #7c7c7c;
@@ -26,6 +29,8 @@ li {
 }
 
 .weather-app {
+  display: flex;
+  flex-direction: column;
   border: 1px solid #dadde1;
   padding: 15px;
   margin: 20px auto;
@@ -55,6 +60,7 @@ li {
   margin-bottom: 20px;
 }
 .small {
+  position: absolute;
   font-size: 80%;
   font-weight: 400;
 }
