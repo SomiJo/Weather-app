@@ -1,5 +1,6 @@
 body {
   font-family: arial, sans-serif;
+  display: block;
 }
 
 h1 {
@@ -52,4 +53,9 @@ li {
 
 .search-form {
   margin-bottom: 20px;
+}
+#source {
+  text-align: center;
+  padding: 0;
+  margin: 0;
 }
